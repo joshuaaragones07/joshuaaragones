@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Josh-Ci</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            color: #fff;
+            background: url('https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/370225873_310695978533547_5647825535240522889_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEkD0OBVWyLkeP-4xLzl8oomiN3y1Z1m_KaI3fLVnWb8op6DjvY0sAa64-D0VdABpMRV8W2rm5BfiONBh54Ospc&_nc_ohc=3sbkKdiN3KIAX9bDchi&_nc_ht=scontent.fmnl3-2.fna&cb_e2o_trans=t&oh=03_AdRZ6ZZ0oSKsuntsqe3rr8evp44rK7WSDebyanbDOEWNTg&oe=658E974C') center/cover no-repeat fixed;
+            background-size: cover;
+        }
+
+        .top-section {
+            background-color: rgba(0, 0, 51, 0);
+            height: 60px;
+        }
+
+        .logo-container {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1;
+        }
+
+        .logo {
+            height: 40px;
+            width: auto;
+        }
+
+        .jumbotron {
+            text-align: center;
+            padding: 0;
+            position: relative;
+            z-index: 2;
+            background-color: rgba(0, 0, 51, 0); /* Fully transparent background */
+        }
+
+        .carousel-item {
+            height: 500px;
+        }
+
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .carousel-caption h3,
+        .carousel-caption p {
+            margin: 0;
+            color: #fff;
+        }
+
+        .testimonial-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .testimonial-image { border-radius: 50%; margin-right: 20px; max-width: 100px;}
+
+        .testimonial-content {
+            flex: 1;
+        }
+
+        .testimonial-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            font-size: 1.1em;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn-primary {
+            background-color: #0069d9;
+            border-color: #0062cc;
+        }
+
+        .lead {
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="top-section"></div>
+
+    <div class="logo-container">
+        <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.15752-9/385536978_915424773504091_5683815435400943848_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF8nzqUQoznJULGIb5lyzJCu9cSsaRuh1y71xKxpG6HXDS8_5dk7Vsgd-LRkNjRldRB8xETjNTBKlcVlA4Pb-a3&_nc_ohc=ZwlzlgqJ6UsAX-VchZ6&_nc_ht=scontent.fmnl3-1.fna&cb_e2o_trans=t&oh=03_AdRoJfL2p59PldKmpAca6xX9mgjMH4PbCP88dyjAbtntWQ&oe=658EC7AE"
+            alt="Your Logo" class="logo">
+    </div>
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="jumbotron">
+                    <h1 class="display-4">Welcome to Josh-Ci Web Studio!</h1>
+                    <p class="lead">Where creativity meets functionality. Dive into our portfolio of stunning web designs and innovative solutions. Ready to turn your ideas into digital reality? Let's embark on a journey of web excellence together!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.15752-9/400609425_336401915792691_8469835913740026209_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFk9NXQ7zHHC--R2h634dz9f8Cj8kZMR_x_wKPyRkxH_BDCxm8s2sxAbuJsZA_062t_k7etojs95LzGRsyy6l89&_nc_ohc=Xz6VEs0TBJQAX-Hcle4&_nc_ht=scontent.fmnl3-1.fna&cb_e2o_trans=t&oh=03_AdSK7SpPyozpVubR9yktGeAc8e_7HsNrO6fa1KRkPPtySQ&oe=658EDFEA" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption">
+                    <h5>Visual Sample 1</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/400884893_1016534166088334_7359326476659076724_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGOsG_-llXTjDZQRFQYCN_1sowsVhQAAf6yjCxWFAAB_hm6nxBr-1zHxQ8ReaoX77GACgQ0Jkzi8xxhTVh00RZp&_nc_ohc=CFN7Hd3l0FYAX-vH8Xr&_nc_oc=AQkspS9Ao2mVbJLOoXXHkQ9AEWAllPVjMmBoH6q0J8Jv8IbyUGLqRn7qH8kiwc-RnoI&_nc_ht=scontent.fmnl3-4.fna&cb_e2o_trans=t&oh=03_AdSL4jyubRZ3GZDwNdfBeBz1BtYCaNmxNn8GHzYxr2R0xQ&oe=658EC7CD" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption">
+                    <h5>Visual Sample 2</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/368099667_365514715850075_1520061990762812085_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFuNONpfhR9N4BTshfGuLcltAE2hyB-jQ-0ATaHIH6NDylRcwV8qdtJrrwEm7wcxWj-calMiwIrfFRVgK_OnuNf&_nc_ohc=HJrm8xNwK1cAX9LThxK&_nc_ht=scontent.fmnl3-2.fna&cb_e2o_trans=t&oh=03_AdT5gUYyc3Xs74jabOS4D_Sn4watDAfVm40RJq5rd25abg&oe=658EE90B" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption">
+                    <h5>Visual Sample 3</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Why Trust Josh-Ci Web Studio?</h2>
+        <p>At Josh-Ci Web Studio, our commitment to excellence is reflected in our track record of delivering captivating and effective web solutions. With a team of seasoned professionals dedicated to your success, we blend creativity with precision to bring your vision to life. Explore our portfolio and testimonials to witness the trust our clients place in us. Your digital success is our priority at Josh-Ci Web Studio.</p>
+
+        <h2>Testimonials</h2>
+        <div class="testimonial-container">
+            <img src="https://scontent.fmnl3-2.fna.fbcdn.net/v/t1.15752-9/375199537_1651429108720743_3431453357033850324_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGhvq6ez50GxElKj4AmvNgH_YXlT8LweE_9heVPwvB4T1xbQduALL4DBEgNfUwPizhBFdgCcgP_ly-ZYn3QhwYd&_nc_ohc=4XtdE3uMUPgAX_-WV-p&_nc_ht=scontent.fmnl3-2.fna&cb_e2o_trans=t&oh=03_AdS5hIM302rnxne3HDBZ-QVOBGnD8Phoj14pEcp04ZUMRQ&oe=658EEB11" alt="Testimonial 1" class="testimonial-image">
+            <div class="testimonial-content">
+                <p class="testimonial-name">John Doe</p>
+                <p class="testimonial-text">"Amazing experience with Josh-Ci Web Studio! They brought my ideas to life with exceptional creativity and precision."</p>
+            </div>
+        </div>
+        <div class="testimonial-container">
+            <img src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/370207985_318356567735187_6465959160379051365_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeECEKBQL1hCkWSMrvrWK3iksuWuFfeZmbyy5a4V95mZvJGxGfjGrfumDHwAElT5jCkfoAyxQfHblWk5E_b8mBFQ&_nc_ohc=e4bSq-Wh3O4AX-49DgD&_nc_ht=scontent.fmnl3-4.fna&cb_e2o_trans=t&oh=03_AdQhh2rDNWgnnWMXg2RyvpVrixpB1L2cfYii1IaCnxHjbQ&oe=658EC1B9" alt="Testimonial 2" class="testimonial-image">
+            <div class="testimonial-content">
+                <p class="testimonial-name">Jane Smith</p>
+                <p class="testimonial-text">"The team at Josh-Ci exceeded my expectations. Professionalism, creativity, and a seamless web development process!"</p>
+            </div>
+        </div>
+        <div class="testimonial-container">
+            <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.15752-9/399979155_1046810326561325_549356231905487069_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEhPkZDLSaQBtKIsu25ENCtOAADViM_KWs4AANWIz8pa6v0suTOMzJrN99M_NDao89-f2woPm8alaSjk6SXFgjz&_nc_ohc=QCgZL1teYCoAX-uTA0O&_nc_ht=scontent.fmnl3-1.fna&cb_e2o_trans=t&oh=03_AdR9gmMX3CDrR2RKPT-b6S5axAQhv6ndaA0lmyEaOl_bEA&oe=658EC998" alt="Testimonial 3" class="testimonial-image">
+            <div class="testimonial-content">
+                <p class="testimonial-name">Alex Johnson</p>
+                <p class="testimonial-text">"I'm impressed with the innovative solutions provided by Josh-Ci Web Studio. A trustworthy partner for web excellence!"</p>
+            </div>
+        </div>
+
+        <button class="btn btn-primary">Get Started</button>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
